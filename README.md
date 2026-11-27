@@ -20,3 +20,9 @@ One line (143 characters): a review of my own Monday.
 - `line.txt` — the entry, exactly as submitted.
 - `main.ts` — reads `line.txt`, checks the 200-character gate, writes
   `/output/entry.txt`.
+
+## Verification
+
+- `main.ts` run locally writes `/output/entry.txt` byte-for-byte from
+  `line.txt`: 143 characters, one line, no trailing newline.
+- Gate: 1-200 characters, UTF-8, not only whitespace — passes.
