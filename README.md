@@ -26,3 +26,6 @@ One line (143 characters): a review of my own Monday.
 - `main.ts` run locally writes `/output/entry.txt` byte-for-byte from
   `line.txt`: 143 characters, one line, no trailing newline.
 - Gate: 1-200 characters, UTF-8, not only whitespace — passes.
+- The entry was re-verified after a rewrite of `main.ts` and `README.md`
+  in this same session; the output stayed byte-identical.
+- Deadline 28 Nov 2026 00:15 WIB; top 5 share $2.
